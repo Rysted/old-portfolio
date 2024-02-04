@@ -1,0 +1,50 @@
+.skills {
+  padding-bottom: 10rem;
+  width: 95%;
+}
+
+.skills__header {
+  margin-bottom: 5rem;
+}
+
+.skills__group {
+  max-width: 90rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.skills__item {
+  background-color: var(--item-bg);
+  box-shadow: 0.2rem 0.2rem 0.4rem var(--item-bg);
+  height: 10rem;
+  width: 10rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.3s;
+}
+
+.skills__item:hover {
+  transform: translateY(-0.5rem);
+}
+
+.skills__image {
+  height: 50px;
+  width: 50px;
+}
+
+.skills__caption {
+  margin-top: 0.2rem;
+  font-weight: bold;
+  color: var(--item-color);
+  font-size: 1.2rem;
+}

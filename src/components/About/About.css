@@ -1,0 +1,87 @@
+.about {
+  margin: 15rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 95%;
+}
+
+.about__image {
+  width: 10rem;
+}
+
+.about__title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.about__name {
+  font-size: 2.5rem;
+  white-space: nowrap;
+}
+
+.about__description {
+  font-size: 1.8rem;
+  text-wrap: balance;
+  max-width: 50rem;
+}
+
+.about__description--highlighted {
+  color: var(--secondary);
+}
+
+.about__download {
+  display: block;
+  width: max-content;
+  background-color: var(--tertiary);
+  color: var(--card-bg);
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  white-space: nowrap;
+  font-size: 1.2rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.about__download:hover {
+  scale: 1.1;
+  background-color: var(--secondary);
+  transition: all 0.2s ease-in-out;
+}
+
+.about__social {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.about__button--social {
+  background-color: var(--tertiary);
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.about__button--social:hover {
+  scale: 1.1;
+  background-color: var(--secondary);
+  transition: all 0.2s ease-in-out;
+}
+
+.about__image--social {
+  display: block;
+  height: 2rem;
+}
+
+.about__text--social {
+  font-size: 1.2rem;
+  color: var(--card-bg);
+}

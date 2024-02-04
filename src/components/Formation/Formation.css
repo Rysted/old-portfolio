@@ -1,0 +1,80 @@
+.formation {
+  padding-bottom: 10rem;
+  width: 95%;
+}
+
+.formation__header {
+  margin-bottom: 5rem;
+}
+
+.formation__container {
+  position: relative;
+  margin: 0 auto;
+  max-width: 90rem;
+}
+
+.formation__container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 1.58rem;
+  width: 0.4rem;
+  height: 100%;
+  border-radius: 1rem;
+  background: var(--secondary);
+}
+
+.formation__item {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 2rem;
+}
+
+.formation__container--icon {
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: white;
+  border-radius: 100%;
+  user-select: none;
+}
+
+.formation__icon {
+  width: 3.555rem;
+  padding: 0.5rem;
+  display: block;
+}
+
+.formation__content {
+  background-color: var(--white);
+  border-radius: 1rem;
+  margin-left: 1rem;
+  box-shadow: none;
+  text-align: left;
+  padding: 1.3rem 2rem;
+  flex-grow: 1;
+}
+
+.formation__subtitle {
+  font-size: 1.5rem;
+  color: var(--tertiary);
+}
+
+.formation__institution {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.formation__paragraph {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+.formation__years {
+  color: var(--text-off);
+  font-weight: 500;
+  display: block;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
