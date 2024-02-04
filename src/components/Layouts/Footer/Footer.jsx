@@ -15,7 +15,7 @@ export const Footer = () => {
         ></path>
       </svg>
       <section className="footer__section" aria-label="copyright">
-        <p className="footer__copyright">©2023 Rysted</p>
+        <p className="footer__copyright">©2023 [Nombre]</p>
       </section>
     </footer>
   );

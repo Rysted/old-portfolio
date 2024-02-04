@@ -51,15 +51,7 @@ export const Projects = () => {
     }
 
     dotMove(id);
-    /* 
-    const activeDot = document.querySelector(".projects__dot--active");
-    if (activeDot) {
-      activeDot.classList.remove("projects__dot--active");
-    }
 
-    const selectedDot = document.querySelectorAll(".projects__dot")[id];
-    selectedDot.classList.add("projects__dot--active");
- */
     setCurrentItemIndex(id);
   };
 
@@ -89,18 +81,6 @@ export const Projects = () => {
             />
           ))}
 
-          {/* Vista previa para dispositivos con resoluciones mayores a 1200px */}
-          {/* <div className="projects__preview-slide">
-          <img src="preview_slide_image_url" alt="Preview Slide" />
-          <div className="projects__project-details">
-            <h3 className="projects__project-title">Titulo</h3>
-            <div className="projects__tech-stack">
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>JavaScript</span>
-            </div>
-          </div>
-        </div> */}
           <button
             className="projects__carousel-button carousel-button-right"
             onClick={() => {
